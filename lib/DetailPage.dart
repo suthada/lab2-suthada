@@ -66,6 +66,8 @@ class DetailPage extends StatelessWidget {
             const SizedBox(height: 10),
             ListTile(
               contentPadding: EdgeInsets.zero,
+              leading:
+                  Icon(Icons.info, color: Color.fromARGB(255, 24, 185, 218)),
               title: Text(
                 "About me",
                 style: TextStyle(
@@ -81,6 +83,7 @@ class DetailPage extends StatelessWidget {
             const SizedBox(height: 10),
             ListTile(
               contentPadding: EdgeInsets.zero,
+              leading: Icon(Icons.email, color: Color.fromARGB(137, 0, 79, 0)),
               title: Text(
                 "Email",
                 style: TextStyle(
